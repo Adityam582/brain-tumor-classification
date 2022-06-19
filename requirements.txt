@@ -4,4 +4,3 @@ Keras-Preprocessing==1.1.2
 Pillow==8.1.1
 streamlit==1.8.1
 h5py==2.10.0
-tensorflow==2.9.1
