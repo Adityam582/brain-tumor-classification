@@ -1,5 +1,5 @@
 import streamlit as st
-import Keras
+import keras
 from PIL import Image, ImageOps
 import numpy as np
 import pandas as pd
