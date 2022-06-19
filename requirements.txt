@@ -1,4 +1,4 @@
-protobuf==3.20.1
+protobuf==3.9.2
 keras==2.9.0
 Keras-Preprocessing==1.1.2
 numpy==1.19.5
