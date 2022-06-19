@@ -1,9 +1,7 @@
 protobuf==3.9.2
 keras==2.9.0
 Keras-Preprocessing==1.1.2
-numpy==1.20
 Pillow==8.1.1
-pandas==1.2.0
 streamlit==1.8.1
 h5py==2.10.0
 tensorflow==2.9.1
