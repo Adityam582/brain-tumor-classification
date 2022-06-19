@@ -4,5 +4,5 @@ Keras-Preprocessing==1.1.2
 numpy==1.19.5
 Pillow==8.1.1
 pandas==1.2.0
-streamlit==0.77.0
+streamlit==1.8.1
 h5py==2.10.0
