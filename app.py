@@ -1,7 +1,8 @@
 import streamlit as st
 #import keras
 #import tensorflow.keras
-from tensorflow import keras
+#from tensorflow import keras
+import tensorflow.keras as keras
 from PIL import Image, ImageOps
 import numpy as np
 import pandas as pd
