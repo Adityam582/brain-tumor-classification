@@ -11,7 +11,7 @@ from keras.preprocessing.image import img_to_array, load_img
 from keras.applications.vgg16 import preprocess_input as preprocess_input_vgg
 #from keras.applications.resnet50 import preprocess_input as preprocess_input_resnet
 #from keras_applications.resnet import preprocess_input as preprocess_input_resnet
-#from tensorflow.keras.applications.resnet50 import preprocess_input as preprocess_input_resnet
+from tensorflow.keras.applications.resnet50 import preprocess_input as preprocess_input_resnet
 
 
 input_shape = (224, 224)
@@ -34,7 +34,7 @@ def binary_classifier_resnet(img, model_file):
     image.load()
     image_array = np.array(image)
     expanded_image_array = np.expand_dims(image_array, axis=0)
-    preprocessed_expanded_image_array = preprocess_input_vgg(expanded_image_array)
+    preprocessed_expanded_image_array = preprocess_input_resnet(expanded_image_array)
     pred = model_resnet_loaded.predict(preprocessed_expanded_image_array)
     output_label = [1 if x>0.5 else 0 for x in pred]
     return output_label[0]
