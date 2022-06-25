@@ -10,8 +10,8 @@ from keras.preprocessing.image import img_to_array, load_img
 #from keras.applications import (InceptionV3, ResNet50, VGG16, imagenet_utils)
 from keras.applications.vgg16 import preprocess_input as preprocess_input_vgg
 #from keras.applications.resnet50 import preprocess_input as preprocess_input_resnet
-from keras_applications.resnet import preprocess_input as preprocess_input_resnet
-# from tensorflow.keras.applications.resnet50 import ResNet50
+#from keras_applications.resnet import preprocess_input as preprocess_input_resnet
+from tensorflow.keras.applications.resnet50 import preprocess_input as preprocess_input_resnet
 
 
 input_shape = (224, 224)
