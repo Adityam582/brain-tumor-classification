@@ -19,8 +19,8 @@ st.set_page_config(
 )
 
 def main():
-    st.title("Image Classification Model")
-    st.header("Deep transfer learning model with State-Of-The-Art models")
+    st.title("Image Classification Deep Learning Model")
+    st.header("Making computers learn to predict, if an image contains traces of tumor.")
     st.write('Select the model to predict input image:')
     option_1 = st.checkbox('VGG16', key='vgg')
     option_2 = st.checkbox('ResNet50',key='resnet')
